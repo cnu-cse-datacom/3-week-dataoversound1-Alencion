@@ -14,9 +14,9 @@ from termcolor import cprint
 from pyfiglet import figlet_format
 
 #HANDSHAKE_START_HZ = 4096
-HANDSHAKE_START_HZ = 1020
+HANDSHAKE_START_HZ = 1020 # dom을 프린트 해보니 시작 hz가 1020 이여서 1020으로 마추었다.
 #HANDSHAKE_END_HZ = 5120 + 1024
-HANDSHAKE_END_HZ = 1540
+HANDSHAKE_END_HZ = 1540 # 마지막에 소리가 끝나는 hz가 1540이여서 마추어 주었다.
 
 START_HZ = 1024
 STEP_HZ = 256
