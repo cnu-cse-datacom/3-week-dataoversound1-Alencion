@@ -15,11 +15,11 @@ from pyfiglet import figlet_format
 
 HANDSHAKE_START_HZ = 4096
 #HANDSHAKE_END_HZ = 5120 + 1024
-HANDSHAKE_END_HZ = 5640
+HANDSHAKE_END_HZ = 5640 #마지막 hz가 5640이여서 마추어주었다.
 
 START_HZ = 1024
 STEP_HZ = 256
-BITS = 2
+BITS = 2 # 소리가 이전 것보다 긴것으로 느껴서 받는 비트를 줄였.
 
 FEC_BYTES = 4
 
